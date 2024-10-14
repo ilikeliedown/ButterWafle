@@ -18,7 +18,7 @@ const ControlServo = () => {
   return (
     <View>
       <Button title="모터를 90도로" onPress={() => moveServo(90)} />
-      <Button title="모터를 180도로" onPress={() => moveServo(180)} /> 
+      <Button title="모터를 180도로" onPress={() => moveServo(180)} />  
     </View>
   );
 };
